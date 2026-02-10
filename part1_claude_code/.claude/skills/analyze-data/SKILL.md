@@ -19,3 +19,10 @@ When performing exploratory data analysis, follow these steps:
 Use polars (not pandas) for all data manipulation. Follow the coding standards in CLAUDE.md.
 
 If $ARGUMENTS specifies a dataset or file path, use that. Otherwise, ask the user what data to analyze.
+
+## Expected Outputs
+- Summary statistics table
+- Distribution plots
+- Correlation heatmap
+- Class balance report
+- Outlier analysis notes
