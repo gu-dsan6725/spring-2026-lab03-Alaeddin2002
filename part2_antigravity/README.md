@@ -243,7 +243,7 @@ git commit -m "Add Wine classification pipeline"
 
 After completing the lab, confirm you observed each feature:
 
-- [-] **Rules (GEMINI.md)**: Code uses polars, not pandas
+- [ ] **Rules (GEMINI.md)**: Code uses polars, not pandas
 - [ ] **Rules**: Logging format matches the prescribed pattern
 - [ ] **Rules**: Private functions start with underscore
 - [ ] **Rules**: Constants declared at file top, not hardcoded in functions
