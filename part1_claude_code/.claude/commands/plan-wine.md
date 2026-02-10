@@ -1,5 +1,5 @@
 ---
-name: plan
+name: plan-wine
 description: Create an implementation plan for review before building
 argument-hint: [description of what to plan]
 disable-model-invocation: true
