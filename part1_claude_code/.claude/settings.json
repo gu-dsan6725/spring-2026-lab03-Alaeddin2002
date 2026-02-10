@@ -11,6 +11,17 @@
             "statusMessage": "Running ruff and py_compile..."
           }
         ]
+      },
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "If the file you just wrote or edited is a .py file (not a test file), check if a corresponding test file exists in a tests/ directory. If no test file exists, create one with pytest covering the public functions.",
+            "timeout": 30,
+            "statusMessage": "Running test files"
+          }
+        ]
       }
     ],
     "PreToolUse": [
@@ -26,3 +37,4 @@
     ]
   }
 }
+
