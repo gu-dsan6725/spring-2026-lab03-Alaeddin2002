@@ -1,4 +1,4 @@
-# California Housing ML Project
+# Wine Classifier ML Project
 
 ## Project Overview
 This project performs exploratory data analysis and builds an XGBoost regression model on the Wine dataset from scikit-learn. The goal is to be able to classify wines into 3 classes.
