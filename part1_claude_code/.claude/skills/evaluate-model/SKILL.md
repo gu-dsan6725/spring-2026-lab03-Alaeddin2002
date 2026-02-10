@@ -1,5 +1,5 @@
 ---
-name: evaluate-model
+name: evaluate-classifier
 description: Evaluate a trained ML model and generate a performance report. Use when asked to evaluate, assess, or report on model performance.
 argument-hint: [model path or description]
 ---
