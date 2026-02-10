@@ -1,7 +1,7 @@
-# Wine Classifier ML Project
+# ML Project - Antigravity Rules
 
 ## Project Overview
-This project performs exploratory data analysis and builds an XGBoost regression model on the Wine dataset from scikit-learn. The goal is to be able to classify wines into 3 classes.
+This project performs exploratory data analysis and builds an XGBoost model using scikit-learn datasets.
 
 ## Coding Standards
 
@@ -31,23 +31,10 @@ logging.basicConfig(
 )
 ```
 
-## Requirements:
-- EDA with stats, distributions, correlation heatmap, class balance, outliers
-- Feature engineering with at least 3 derived features
-- Standard scaling and stratified train/test split
-- XGBoost classifier with 5-fold cross-validation
-- Metrics: accuracy, precision, recall, F1, confusion matrix
-- Feature importance and written evaluation report
-
-
-
 ### Constants
 - Do not hard-code constants inside functions
 - Declare constants at the top of the file with type annotations
-- Use polars, not pandas
-- Scripts go in part1_claude_code/src/
-- Outputs go in output/
-  
+
 ### After Writing Python Files
 - Always run `uv run ruff check --fix <filename>` after writing Python files
 - Always run `uv run python -m py_compile <filename>` to verify syntax
