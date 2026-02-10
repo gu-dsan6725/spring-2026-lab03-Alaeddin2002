@@ -1,6 +1,6 @@
 ---
-name: analyze-data
-description: Perform exploratory data analysis on a dataset. Use when asked to explore, profile, or analyze data.
+name: analyze-wine-data
+description: Perform exploratory data analysis on the winde dataset from sklearn. Use when asked to explore, profile, or analyze data.
 argument-hint: [dataset or file path]
 ---
 
